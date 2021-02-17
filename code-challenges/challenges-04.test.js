@@ -22,7 +22,9 @@ Write a function named containsW that takes in a string. This function should us
 ------------------------------------------------------------------------------------------------ */
 
 const containsW = (str) => {
-  // Solution code here...
+  let regex = /w/g
+  let testRegex = regex.test(str)
+  return testRegex
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -38,7 +40,9 @@ For example:
 ------------------------------------------------------------------------------------------------ */
 
 const isNum = (input) => {
-  // Solution code here...
+  let regex = /[0-9]/g
+  let testRegex = regex.test(input)
+  return testRegex
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -49,7 +53,9 @@ Write a function named containsWorld that takes in a string or number of any len
 ------------------------------------------------------------------------------------------------ */
 
 const containsWorld = (input) => {
-  // Solution code here...
+  let regex = /world/g
+  let testRegex = regex.test(input)
+  return testRegex
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -61,7 +67,10 @@ Return an array containing all the matches.
 ------------------------------------------------------------------------------------------------ */
 
 const isCapitalized = (str) => {
-  // Solution code here...
+  let regex = /\b[A-Z]\w*/g
+  let testRegex = []
+  testRegex = str.match(regex)
+  return testRegex
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -71,7 +80,13 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 ------------------------------------------------------------------------------------------------ */
 
 const citiesAtoJ = (arr) => {
-  // Solution code here...
+  let regex = /^[A-J]/g
+  let testRegex = []
+  arr.forEach(element => {
+    if (regex.test(element))
+      testRegex.push(element)
+  });
+  return testRegex
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -87,7 +102,7 @@ Do not use the vertical bar (pipe) in your pattern.
 ------------------------------------------------------------------------------------------------ */
 
 const matchMonth = (input) => {
-  // Solution code here...
+
 };
 
 /* ------------------------------------------------------------------------------------------------
