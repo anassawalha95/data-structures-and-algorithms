@@ -1,4 +1,5 @@
 'use strict';
+'use strict';
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 1 - Review
@@ -67,10 +68,10 @@ Return an array containing all the matches.
 ------------------------------------------------------------------------------------------------ */
 
 const isCapitalized = (str) => {
-  let regex = /\b[A-Z]\w*/g
-  let testRegex = []
-  testRegex = str.match(regex)
-  return testRegex
+  let rgx = /[A-Z](\w)*/g;
+  let match = [];
+  match = str.match(rgx)
+  return match || [];
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -80,13 +81,20 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 ------------------------------------------------------------------------------------------------ */
 
 const citiesAtoJ = (arr) => {
-  let regex = /^[A-J]/g
-  let testRegex = []
-  arr.forEach(element => {
-    if (regex.test(element))
-      testRegex.push(element)
+  let regex = /^[A-J]/g;
+  const t = new Array();
+  arr.forEach((e, i) => {
+
+
+    //console.log(regex.test(e));
+    regex.test(i);
+    if (regex.test(e)) {
+      //   console.log(e)
+      t.push(e)
+    }
+
   });
-  return testRegex
+  return t;
 };
 
 /* ------------------------------------------------------------------------------------------------
