@@ -9,3 +9,7 @@ For performance: O(n)
 
 ## Solution
 ![array reversed solution](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/arrayReversed.png?raw=true)
+
+
+
+![array reversed solution](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/arrayreverse02.jpg?raw=true)
