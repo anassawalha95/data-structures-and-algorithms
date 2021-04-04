@@ -12,4 +12,6 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 
 ### 401 Data Structures, Code Challenges
 
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+|SUBJECTS  |                 LINKS             |
+--------------------|:--------------------------------------------------------:|
+|Reverse-Array       | [Link](https://github.com/anassawalha95/data-structures-and-algorithms-python/tree/master/data-structures-and-algorithms/challenges/array_reverse)|
