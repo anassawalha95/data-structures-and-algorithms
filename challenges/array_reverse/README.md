@@ -13,3 +13,10 @@ For performance: O(n)
 
 
 ![array reversed solution](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/arrayreverse02.jpg?raw=true)
+
+- [X] Problim domain
+- [X] Challenge
+- [X] Algorithem
+- [X] Approach & Efficiency
+- [X] Solution
+- [X] Visual
