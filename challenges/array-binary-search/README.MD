@@ -8,7 +8,5 @@ Used the simplist way to solve the problem
 
 ## Solution
 
-![array reversed solution](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/insertShiftArray1.jpg?raw=true)
-![array reversed solution](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/insertShiftArray2.png)
-![array reversed solution](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/insertShiftArray3.png)
-![array reversed solution](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/insertShiftArray.png?raw=true)
+![array reversed solution](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/binarySearch.png?raw=true)
+
