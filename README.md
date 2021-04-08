@@ -17,8 +17,8 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 |Reverse-Array       | [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/array_reverse)|
 |Array-shift       | [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/array-shift)|
 |array-binary-search     | [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/array-binary-search)|
-|array-binary-search     | [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/linter)|
-|array-binary-search     | [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/linked-list)|
+|linter    | [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/linter)|
+|linked-list    | [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/linked-list)|
 
 
 
