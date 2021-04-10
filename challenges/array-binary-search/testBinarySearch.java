@@ -1,23 +1,30 @@
 package arraybinarysearch;
 import java.util.Arrays;
 import java.util.ArrayList;
-
+import org.junit.Test;
+import static org.junit.Assert.*;
 public class testBinarySearch {
-    
- @Test public void testBinarySearch() {
-        int[] test1=  {4,8,15,16,23,42}; 
-         int[] test2=  {11,22,33,44,55,66,77};
-         int[] test3=  {1, 2, 3, 5, 6, 7};
-         int[] expect1 ={2};
-         int[] expect2 ={-1};
-         int[] expect3 ={-1};
+    @Test
+    public void binarySearchSolution1Test(){
+        int [] arr ={1,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,70};
+                  // 0,1,2,3,4 ,5 ,6 ,7 ,8 ,9 ,10,11,12,13,14,15,16
+
+
+        System.out.println("The Index is: "+ binarySearch.binarySearchSolution1(arr, 43));
         
+        
+        System.out.println("The Index is: "+ binarySearch.binarySearchSolution2(arr, 43));
 
-   
+        assertEquals(13,binarySearch.binarySearchSolution1(arr, 43));
+        assertEquals(13,binarySearch.binarySearchSolution2(arr, 43));
 
-        assertArrayEquals("test expect output is "+expect1,expect1,BinarySearch.insertShiftArray(test1,15));
-        assertArrayEquals("test expect output is "+expect2,expect2,BinarySearch.insertShiftArray(test2,90));
-        assertArrayEquals("test expect output is "+expect2,expect3,BinarySearch.insertShiftArray(test3, 4));
+
+        assertEquals(16,binarySearch.binarySearchSolution1(arr, 70));
+        assertEquals(16,binarySearch.binarySearchSolution2(arr, 70));
+
+        assertEquals(0,binarySearch.binarySearchSolution1(arr, 1));
+        assertEquals(0,binarySearch.binarySearchSolution2(arr, 1));
+        
     }
 
 
