@@ -9,4 +9,6 @@ Used the simplist way to solve the problem
 ## Solution
 
 ![array reversed solution](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/binarySearch.png?raw=true)
-
+![Algorithm](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/array-binary-search-Algorithm.png?raw=true)
+![pseudo](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/array-binary-code-pseudo%20code.png?raw=true)
+![code](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/array-binary-code.png?raw=true)
