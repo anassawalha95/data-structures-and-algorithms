@@ -19,9 +19,9 @@ I took the easiest way in solving the problem. the big O is O(n)
 ## Solution
 
 ![linked list 2](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/linkedlist-part2-4.jpg?raw=true)
-![linked list 2](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/linkedlist-part2-3.png)
-![linked list 2](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/linkedlist-part2-2.png)
-![linked list 2](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/linkedlist-part2-1?raw=true)
+![linked list 2](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/linkedlist-part2-3.jpg)
+![linked list 2](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/linkedlist-part2-2.jpg)
+![linked list 2](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/linkedlist-part2-1.jpg?raw=true)
 
 - [x] Top-level README “Table of Contents” is updated
 - [x] Feature tasks for this challenge are completed
