@@ -12,13 +12,11 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 
 ### 401 Data Structures, Code Challenges
 
-|SUBJECTS  |                 LINKS             |
---------------------|:--------------------------------------------------------:|
-|Reverse-Array       | [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/array_reverse)|
-|Array-shift       | [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/array-shift)|
-|array-binary-search     | [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/array-binary-search)|
-|linked-list    | [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/linked-list)|
+| SUBJECTS            |                                                      LINKS                                                       |
+| ------------------- | :--------------------------------------------------------------------------------------------------------------: |
+| Reverse-Array       |    [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/array_reverse)    |
+| Array-shift         |     [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/array-shift)     |
+| array-binary-search | [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/array-binary-search) |
+| linked-list         |     [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/linked-list)     |
 
-
-
-
+|linked-list insertions | [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/ll-insertions)|
