@@ -12,11 +12,12 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 
 ### 401 Data Structures, Code Challenges
 
-| SUBJECTS               |                                                      LINKS                                                       |
-| ---------------------- | :--------------------------------------------------------------------------------------------------------------: |
-| Reverse-Array          |    [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/Data-Structures/array-reverse)    |
-| Array-shift            |     [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/Data-Structures/array-shift)     |
-| array-binary-search    | [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/Data-Structures/array-binary-search) |
-| linked-list            |     [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/Data-Structures/linked-list)     |
-| linked-list insertions |    [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/Data-Structures/ll-insertions)    |
+| SUBJECTS                    |                                                         LINKS                                                         |
+| --------------------------- | :-------------------------------------------------------------------------------------------------------------------: |
+| Reverse-Array               |    [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/Data-Structures/array-reverse)    |
+| Array-shift                 |     [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/Data-Structures/array-shift)     |
+| array-binary-search         | [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/Data-Structures/array-binary-search) |
+| linked-list                 |     [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/Data-Structures/linked-list)     |
+| linked-list insertions      |    [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/Data-Structures/ll-insertions)    |
 | linked-list ll-kth-from-end |   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/Data-Structures/ll-kth-from-end)   |
+| linked-list ll-zip          |          [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/ll-zip)          |
