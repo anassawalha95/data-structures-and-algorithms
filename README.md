@@ -21,4 +21,5 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 | linked-list insertions      |    [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/Data-Structures/ll-insertions)    |
 | linked-list ll-kth-from-end |   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/Data-Structures/ll-kth-from-end)   |
 | linked-list ll-zip          |          [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/ll-zip)          |
-| stack-and-queue             |   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/Data-Structures/stack-and-queue)          |
+| stack-and-queue             |   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/stack-and-queue)        |
+| queue-with-stacks            |   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/queue-with-stacks)     |
