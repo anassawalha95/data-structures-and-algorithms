@@ -23,5 +23,6 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 | linked-list ll-zip          |          [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/ll-zip)          |
 | stack-and-queue             |   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/stack-and-queue)        |
 | queue-with-stacks            |   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/queue-with-stacks)     |
+| multiBracketValidation       |   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/Multi-Bracket-Validation)     |
 | fifo-animal-shelter           |   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/fifo-animal-shelter)     |
 | tree        |   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/tree)     |
