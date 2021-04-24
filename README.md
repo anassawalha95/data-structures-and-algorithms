@@ -24,3 +24,4 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 | stack-and-queue             |   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/stack-and-queue)        |
 | queue-with-stacks            |   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/queue-with-stacks)     |
 | fifo-animal-shelter           |   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/fifo-animal-shelter)     |
+| tree        |   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/tree)     |
