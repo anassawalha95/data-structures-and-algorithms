@@ -6,6 +6,7 @@ public class LinkedList<N> {
 
     public void insert  (N value){
         this.head=new Node(value,this.head);
+        if (nodesCounter==0)
         tail=head;
         this.nodesCounter++;
     }
@@ -111,32 +112,48 @@ public class LinkedList<N> {
 
     public LinkedList zipLists(LinkedList listOne, LinkedList listTwo ){
 
-        Node<N> currentListOne = listOne.head;
-        Node<N> currentListTwo = listTwo.head;
-        if (listOne.head == null && listTwo.head == null){
-           return null;
-        }
-        if (listOne.head == null && listTwo.head != null){
-            //listOne.head =  listTwo.head;
-            head=listTwo.head;
-            return listTwo ;
-        }
-        if (listTwo.head == null  && listOne.head != null){
-            head=listOne.head;
-            return listOne ;
-        }
-        while ( currentListOne != null ){
-            currentListOne = currentListOne.next;
-        }
-        while ( currentListTwo != null ){
+        Node<N> current1 = listOne.head;
+        Node<N> current2 = listTwo.head;
+        Node<N> temp ;
 
-            listOne.append(currentListTwo.value);
-            currentListTwo=currentListTwo.next;
+        if (current1 == null)
+            return listTwo;
+
+        while (current1 !=null && current2!=null){
+            temp=current2.next;
+            current2.next = current1.next;
+            current1.next=current2;
+
+            current2=temp;
+
+            current1=current1.next.next;
+
         }
-//
-//        listOne.append(listTwo.head);
-        head=listOne.head;
+        current1 = listOne.head;
+        while ( current1.next!=null){
+
+            current1 =current1.next;
+        }
+        if (current2 != null){
+            current1.next=current2;
+        }
+
         return listOne;
+    }
+
+    public void reverseLinkedList(){
+
+        Node<N> previous = null;
+        Node<N> current = head;
+        Node<N> next = null;
+        while (current != null) {
+            next = current.next;
+            current.next = previous;
+            previous = current;
+            current = next;
+        }
+        head = previous;
+
     }
 
     public String toString(){
