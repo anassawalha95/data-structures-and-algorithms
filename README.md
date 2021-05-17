@@ -30,3 +30,4 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 |  breadth-first|   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/breadth-first)     |
 | fizzbuzz-tree|   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/fizzbuzz-tree)     |
 | insertion-sort|   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/insertion-sort)     |
+| merge-sort|   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/merge-sort)     |
