@@ -3,68 +3,50 @@ package blog;
 import java.util.Arrays;
 
 public
-class MergeSort {
+class QuickSort {
 
-
-    public static int[] MergeSort(int[] arr) {
-
-        int n = arr.length;
-
-        if (n > 1) {
-            int mid = (int) Math.ceil((double) n / 2.0);
-
-            int[] left =Arrays.copyOfRange(arr, 0, mid);
-            int[] right=Arrays.copyOfRange(arr, mid, n);
-            // sort the left side
-            left= MergeSort(left);
-            // sort the right side
-            right= MergeSort(right);
-            // merge the sorted left and right sides together
-            arr=  Merge(left, right, arr);
+    public static int[] QuickSort(int[] arr,  int left, int right) {
+        if (left < right) {
+            // Partition the array by setting the position of the pivot value
+            int position = Partition(arr, left, right);
+            // Sort the left
+            QuickSort(arr, left, position - 1);
+            // Sort the right
+            QuickSort(arr, position + 1, right);
         }
+    return arr;
+    }
+
+    public static int Partition(int[] arr,  int left, int right){
+    // set a pivot value as a point of reference
+    int pivot = arr[right];
+    // create a variable to track the largest index of numbers lower than the defined pivot
+    int low = left - 1;
+    for (int i = left;i <  right; i++){
+        if (arr[i] <= pivot){
+        low++;
+        Swap(arr, i, low);
+        };
+
+
+    }
+
+    // place the value of the pivot location in the middle.
+    // all numbers smaller than the pivot are on the left, larger on the right.
+    Swap(arr, right, low + 1);
+    // return the pivot index point
+     return low + 1;
+    }
+
+
+    public static int[] Swap(int[] arr, int i,int low){
+        int temp;
+        temp = arr[i];
+        arr[i] =arr[low];
+        arr[low] =temp;
         return arr;
     }
 
-    public static  int[] Merge(int[] left, int[] right, int[] arr){
-        int i = 0;
-        int j = 0;
-        int k = 0;
+    
 
-        while( i < left.length && j < right.length) {
-            if (left[i] <= right[j]) {
-                arr[k] = left[i];
-                i = i + 1;
-            } else {
-                arr[k] = right[j];
-                j = j + 1;
-            }
-            k = k + 1;
-
-        }
-
-        if( i == left.length)
-            for(int index = j ; index < right.length ; index++){
-                arr[k] =  right[index];
-                k++;
-            }
-        else
-            for(int index = i ; index < left.length ; index++){
-                arr[k] =  left[index];
-                k++;
-            }
-
-    return arr;
-
-    }
-
-    public static void main(String[] args)    {
-
-        int[] a1={8,4,23,42,16,15};
-        int[] a2={5,12,7,5,5,7};
-        int[] a3={2,3,5,7,13,11};
-
-        System.out.println(Arrays.toString(MergeSort(a1)));
-        System.out.println(Arrays.toString(MergeSort(a2)));
-        System.out.println(Arrays.toString(MergeSort(a3)));
-    }
 }
