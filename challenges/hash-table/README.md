@@ -1,35 +1,31 @@
-# Challenge Summary
+# Hashtables
+This app has hashtable build implemented and tested
 
-expand singly Linked list by adding new method to it
+## Challenge
 
-## Challenge Description
+Implement the hashtable with the following methods 
 
-Add new 3 method to the singly linked list that will:
-
-1. Insert after an element.
-2. Insert before and element.
-3. Add new value at the end of the linked list.
+1. add: takes in both the key and value. This method should hash the key, and add the key and value pair to the table, handling collisions as needed.
+2. get: takes in the key and returns the value from the table.
+3. contains: takes in the key and returns a boolean, indicating if the key exists in the table already.
+4. hash: takes in an arbitrary key and returns an index in the collection.
 
 ## Approach & Efficiency
 
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+The building approach used closed addressing
 
-I took the easiest way in solving the problem. the big O is O(n)
+The hashtable has O(n) in its worst case because of adding take liner search for the last node and a O(n) for space also 
 
-## Solution
 
-![linked list 2](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/linkedlist-part2-4.jpg?raw=true)
-![linked list 2](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/linkedlist-part2-3.jpg)
-![linked list 2](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/linkedlist-part2-2.jpg)
-![linked list 2](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/linkedlist-part2-1.jpg?raw=true)
 
-- [x] Top-level README “Table of Contents” is updated
-- [x] Feature tasks for this challenge are completed
-- [x] Unit tests written and passing
-  - [x] “Happy Path” - Expected outcome
-  - [x] Expected failure
-  - [x] Edge Case (if applicable/obvious)
-- [x] README for this challenge is complete
-  - [x] Summary, Description, Approach & Efficiency, Solution
-  - [x] Link to code
-  - [x] Picture of whiteboard
+
+## API
+
+- `add(<string key>,<string value>)`: adding a value to hash table
+
+- `contains(<string key>)`: return true/false if the value exists or not
+
+- `hash(<string key>)`: return a hashed key
+
+- `get(<string key>)`: return a value if exists
+
