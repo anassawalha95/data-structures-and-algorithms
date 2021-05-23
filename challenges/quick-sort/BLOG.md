@@ -67,6 +67,7 @@ Quick sort complexity has O(log n) in its best case but the best case cant be re
             arr[i] <-- arr[low]
             arr[low] <-- temp
 
+
 ### Diagram
 
 ![quick-sort](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/assests/quick-sort.jpg)
