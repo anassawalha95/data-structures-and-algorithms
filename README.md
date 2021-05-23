@@ -32,4 +32,4 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 | insertion-sort|   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/insertion-sort)     |
 | merge-sort|   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/merge-sort)     |
 | quick-sort|   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/quick-sort)     |
-| quick-sort|   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/hash-table)     |
+| hash-table|   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/hash-table)     |
