@@ -6,6 +6,7 @@
 
 Merge sort complexity has O( n log n) in its worst case where it has to divid the array every time then loop over the values for comparison. While the space has O(n)
 
+
 ### Algorithm
 
 1. Declare an algorithm called mergesort that accepts an array
@@ -36,6 +37,7 @@ Merge sort complexity has O( n log n) in its worst case where it has to divid th
    12. otherwise loop over the array left values and set them to array of k
    13. increse the value of k each time it loops
    14. return the array
+
 
 ### Pesudo Code
 
