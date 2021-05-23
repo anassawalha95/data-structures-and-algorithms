@@ -33,3 +33,5 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 | merge-sort|   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/merge-sort)     |
 | quick-sort|   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/quick-sort)     |
 | hash-table|   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/hash-table)     |
+| repeated-word|   [Link](https://github.com/anassawalha95/data-structures-and-algorithms/tree/main/challenges/repeated-word)     |
+
