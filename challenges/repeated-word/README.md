@@ -13,4 +13,4 @@ Space Complexity is O(n) due to use Sets
 
 ## Solution
 
-![repeated word](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/repeated-word.jpg)
+![repeated word](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/repeated-word.png)
