@@ -2,10 +2,13 @@ package graph;
 
 public
 class Vertex<N>{
-    Edge<N> edge;
     N value;
-    Vertex(N value){
-        this.value=value;
+    Edge<N> edge;
+
+    Vertex(N val){
+
+        value=val;
+        edge=new Edge<>(null,0);
     }
 
 
@@ -15,7 +18,9 @@ class Vertex<N>{
     }
 
     public
-    void setEdge(Edge edge) {
+    void setEdge(Edge<N> edge) {
         this.edge = edge;
     }
+
+
 }

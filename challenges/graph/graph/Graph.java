@@ -8,13 +8,13 @@ import java.util.Set;
 public
 class Graph <G> {
 
-    public HashSet<Vertex<G> > vertexList=new HashSet<>();
+    public Set<Vertex<G> > vertexList=new HashSet<>();
 
 
     public
-    Vertex AddNode(G value){
+    Vertex<G> AddNode(G value){
 
-        Vertex<G> vertex =new Vertex(value);
+        Vertex<G> vertex =new Vertex<G>(value);
 
         vertexList.add(vertex);
 
@@ -30,24 +30,25 @@ class Graph <G> {
 
     }
 
-    public HashSet<Vertex<G> > GetNodes(){
+    public Set<Vertex<G> > GetNodes(){
         return vertexList;
     }
 
     public
-    HashSet<Vertex<G> > GetNeighbors(Vertex<G>  vertex){
-        HashSet<Vertex<G> > allNeighbors = new HashSet<>();
+    List<Vertex<G> > GetNeighbors(Vertex<G>  vertex){
+        List<Vertex<G> > allNeighbors = new ArrayList<>();
 
-        GetNeighborsOfTheNeighbor(vertex, (HashSet<G>) allNeighbors);
+        GetNeighborsOfTheNeighbor(vertex,  allNeighbors);
 
-       return allNeighbors;
+        return allNeighbors;
 
     }
 
-    public void GetNeighborsOfTheNeighbor(Vertex<G>  vertex,HashSet<G>  allNeighbors){
+    public void GetNeighborsOfTheNeighbor(Vertex<G>  vertex, List<Vertex<G> >  allNeighbors){
 
-        if(vertex.getEdge().getVertex()!=null){
-            allNeighbors.add((G) vertex.getEdge().getVertex());
+        if(vertex.getEdge() !=null && vertex.getEdge().getVertex()!=null ){
+
+            allNeighbors.add( vertex.getEdge().getVertex());
             GetNeighborsOfTheNeighbor(vertex.getEdge().getVertex(),allNeighbors);
         }
     }
@@ -55,4 +56,6 @@ class Graph <G> {
     public int Size(){
         return vertexList.size();
     }
+
+
 }
