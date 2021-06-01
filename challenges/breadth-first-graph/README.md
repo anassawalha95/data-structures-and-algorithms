@@ -5,7 +5,6 @@ Build and implement graph Breadth First Search where the function takes a vertex
 ## Whiteboard Process
 
 ![BFS-Whiteboard](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/breadth-first-graph-whiteboard.PNG)
-![BFS-Whiteboard](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/breadth-first-graph.PNG)
 
 ## Approach & Efficiency
 

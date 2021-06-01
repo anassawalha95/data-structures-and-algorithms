@@ -1,6 +1,18 @@
- @Test
-     @Test
-    public void  BFSTest(){
+package graph;
+
+import org.junit.Test;
+
+import java.util.*;
+
+import static org.junit.Assert.*;
+
+
+public
+class AppTest {
+
+
+    @Test
+    public void  DFSTest() {
         Graph graph = new Graph();
 
         Vertex Pandora=graph.AddNode("Pandora");
@@ -24,7 +36,7 @@
         Naboo.getEdge().add(Narnia);
         Naboo.getEdge().add(Metroville);
         Naboo.getEdge().add(Monstroplolis);
-        ArrayList<Vertex> test=  BreadthFirst.breadthFirst(Pandora);
+        ArrayList<Vertex> test=  DepthFirst.DepthFirst(Pandora);
 
 
 
@@ -56,7 +68,7 @@
 
 
 
-        ArrayList<Vertex> test2=  BreadthFirst.breadthFirst(irbed);
+        ArrayList<Vertex> test2=  DepthFirst.DepthFirst(irbed);
 
 
 
@@ -82,14 +94,16 @@
 
 
 
-        ArrayList<Vertex> test3=  BreadthFirst.breadthFirst(one);
+        ArrayList<Vertex> test3=  DepthFirst.DepthFirst(one);
 
 //        System.out.println(Arrays.toString(test.toArray()));
 //        System.out.println(Arrays.toString(test2.toArray()));
 //        System.out.println(Arrays.toString(test3.toArray()));
+//
 
-        assertArrayEquals(new String[]{"1", "6", "2", "3", "4", "5"},test3.toArray());
+
+        assertArrayEquals(new String[]{"Pandora", "Arendelle", "Metroville", "Narnia", "Naboo", "Monstroplolis"},test.toArray());
         assertArrayEquals(new String[]{"irbed", "jarash", "amman", "mafraq", "balqa"},test2.toArray());
-        assertArrayEquals(new String[]{"Pandora", "Arendelle", "Metroville", "Monstroplolis", "Narnia", "Naboo"},test.toArray());
+        assertArrayEquals(new String[]{"1", "6", "2", "3", "5", "4"},test3.toArray());
     }
 }
