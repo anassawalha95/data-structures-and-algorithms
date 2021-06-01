@@ -14,4 +14,4 @@ Space Complexity is O(V)
 
 ## Solution
 
-![BFS-Whiteboard](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/depth-first-graph.PNG)
+![DFS-Whiteboard](https://github.com/anassawalha95/data-structures-and-algorithms/blob/main/challenges/assests/depth-first-graph.PNG)
